@@ -1,10 +1,1 @@
-apiVersion: v1
-kind: Ingress
-metadata:
-  name: ngnix
-  annotations:
-    http.port: "443"
-spec:
-  backend:
-    serviceName: ngnix
-    servicePort: 80
+
